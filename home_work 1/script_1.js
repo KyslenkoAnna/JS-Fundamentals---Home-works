@@ -14,7 +14,7 @@ alert(`Периметр квадрата равен ${squareSize*4} см.`);
 //Exercise #4
 const numberPi=3.14;
 let radius=prompt('Задайте радиус окружности?','');
-alert(`Радиуc окружности равен ${radius*2*numberPi} см.`);
+alert(`Радиуc окружности равен ${radius**2*numberPi} см.`);
 
 //Exercise #5
 let distance=prompt('Какое расстояние вам нужно преодолеть?','');
@@ -48,4 +48,5 @@ function reverseInt(number) {
 alert(reverseInt(number));
 
 
+alert(prompt("Введите число:").split("").reverse().join(''));
 
