@@ -1,12 +1,12 @@
 //Task #6 - Написать функцию, которая возвращает число Фибоначчи.
-function func(n) {
+function fibonacci(n) {
     if (n <= 1) {
         return n;
     }
     else {
-        return func(n - 1) + func(n - 2);
+        return fibonacci(n - 1) + fibonacci(n - 2);
     }
   }
-console.log(func(6));
-console.log(func(3));
-console.log(func(10));
+console.log(fibonacci(6));
+console.log(fibonacci(3));
+console.log(fibonacci(10));

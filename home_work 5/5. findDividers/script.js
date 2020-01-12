@@ -32,4 +32,3 @@ function findDividers(number) {
         }
 }
 findDividers(12);
-findDividers(35);
