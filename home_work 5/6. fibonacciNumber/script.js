@@ -1,12 +1,23 @@
 //Task #6 - Написать функцию, которая возвращает число Фибоначчи.
-function fibonacci(n) {
+/* function fib(n) {
     if (n <= 1) {
         return n;
     }
     else {
-        return fibonacci(n - 1) + fibonacci(n - 2);
+        return fib(n - 1) + fib(n - 2);
     }
   }
-console.log(fibonacci(6));
-console.log(fibonacci(3));
-console.log(fibonacci(10));
+console.log(fib(6));
+console.log(fib(3));
+console.log(fib(10)); */
+
+//Better Solution
+const fib2 = n => {
+    if(n == 0){
+      return [0, 1];
+    }else{
+      const [prev, next] = fib2(n - 1);
+      return [next, prev + next];
+    }
+  }
+console.log(fib2(10));
