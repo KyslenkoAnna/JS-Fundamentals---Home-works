@@ -15,11 +15,10 @@ console.log(isPrime(1));
 console.log(isPrime(5)); */
 
 //Рекурсивный способ
-function isPrime(number, i){
-    if (number == 1) return false;
-    else if (number == 2) return true;
-    else if (number % i == 0) return false;
-    else if (i <= Math.sqrt(number)) return isPrime(number, i + 1);
-    else return true;
+function isPrime(number, i = 2){
+    if (number < 4 && number > 1) return true;
+    if (number == 2) return true;
+    if (number % i == 0) return false;
+    return (i <= Math.sqrt(number))? isPrime(number, i + 1): true;
 }
-console.log(isPrime(9,2));
+console.log(isPrime(9));
