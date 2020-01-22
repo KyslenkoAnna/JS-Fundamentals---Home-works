@@ -1,0 +1,56 @@
+#form{
+    background-color: khaki;
+    width: 300px;
+}
+#inp{
+    margin-top: 10px;
+}
+.btn{
+    margin-top: 10px;
+}
+#choose{
+    color:cornflowerblue;
+     margin-top: 40px;
+}
+.modal{
+    display: none;
+    background-color: beige;
+    text-align: center;
+    width:200px;
+    height: 80px;
+    border:2px dashed hotpink;
+    position: absolute;
+    margin: -52px 0 0 112px;
+}
+.traffic_light{
+    background-color: blanchedalmond;
+    margin-top: 40px;
+    width: 450px;
+    height: 150px;
+    text-align: center;
+    border: 2px solid blueviolet;
+    border-radius: 30px;
+}
+.traffic_color{
+    background-color:gainsboro;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-top: 15px;
+    padding:10px;
+    border:50%;
+}
+.button{
+    background-color: lightpink;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 30px;
+    position: absolute;
+    margin: 161px 0 0 -240px;
+    text-align: center;
+    font-size: 25px;
+}
